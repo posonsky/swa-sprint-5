@@ -1,3 +1,11 @@
+ai/models/*
+!ai/models/.gitkeep
+
+.rasa/
+__pycache__/
+
+*.py[cod]
+
 # dependencies
 
 /.pnp
@@ -330,3 +338,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/node,react,jetbrains+all,visualstudiocode,macos,windows
+
+!rasa*.log
